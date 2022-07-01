@@ -1,4 +1,4 @@
-let urlApi = 'https://www.feriadosapp.com/api/holidays.json'
+let urlApi = 'https://api.victorsanmartin.com/feriados/en.json';
 fetch(urlApi)
     .then(response => response.json())
     .then(data => mostrarData(data.data))
